@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Trained model binaries (too large for git)
+models/lr_model*/
+models/rf_model*/
+models/gb_model*/
+models/best_model*/
+
+# Feast registry / online store
+feature_store/data/registry.db
+feature_store/data/online_store.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Env files
+.env
